@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+}
+
+nav {
+    background-color: rgb(8, 8, 114);
+    padding: 19px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 50px;
+}
+
+.companyname {
+    flex-grow: 1;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 20px ;
+    letter-spacing: 1px;
+    padding-bottom: 3px ;
+}
+
+.links-container {
+    flex-grow: 1;
+    font-size: 19.65px;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 20px;
+    letter-spacing: 1px;
+    transition: all .2s;
+}
+
+.link:hover {
+    border-bottom: solid 2px white;
+}
+
+.link_main {
+    border-bottom: solid 2px white;
+}
+
+.intro {
+    margin-top: 175px;
+    font-size: 50px;
+    font-weight: 725;
+    text-align: center;
+}
+
+.catchers {
+    color: rgb(17, 17, 210);
+    font-size: 32px;
+    text-align: center;
+}
+
+.bullet {
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.dotdotdot{
+    text-align: center;
+    word-spacing: 10px;
+    padding-top: 25px;
+}
+
+.you-name-it {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+    margin-bottom: 85px;
+}
+
+.title {
+    border-left: rgb(17, 17, 210) 5px solid;
+    font-size: 32px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-left: 15px;
+}
+
+/* .text-and-images {
+    display: flex;
+} */
+
+/* .text {
+} */
+
+.images {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    /* grid-template-columns: 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px; */
+}
+
